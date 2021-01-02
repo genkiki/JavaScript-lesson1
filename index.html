@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>ストップウォッチ</h1>
+    <h1> <span id="min"></span> : <span id="sec"></span> : <span id="milisec"></span> </h1>
+    <ul class="btn-list">
+        <li>
+            <input type="button" class="btn start" id="start" value="スタート" onclick="startCount()">
+        </li>
+        <li>
+            <input type="button" class="btn stop" id="stop" value="ストップ" onclick="stopCount()">
+        </li>
+        <li>
+            <input type="button" class="btn reset" id="reset" value="リセット" onclick="resetCount()">
+        </li>
+    </ul>
+    <script type="text/javascript" src="main.js" charset="utf-8"></script>
+</body>
+</html> 
